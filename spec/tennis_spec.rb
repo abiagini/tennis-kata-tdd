@@ -60,7 +60,7 @@ RSpec.describe Tennis do
 
     tennis.won_point
 
-    expect(tennis.score).to eq 'Advantage in'
+    expect(tennis.score).to eq 'Ad-in'
   end
 
   it 'server player wins the game when he scores after advantage' do
@@ -78,7 +78,7 @@ RSpec.describe Tennis do
 
     tennis.won_point player: :receiver
 
-    expect(tennis.score).to eq 'Advantage out'
+    expect(tennis.score).to eq 'Ad-out'
   end
 
   it 'receiver player wins the game when he scores after advantage' do
@@ -100,7 +100,7 @@ RSpec.describe Tennis do
     expect(tennis.score).to eq 'Deuce'
 
     tennis.won_point player: :receiver
-    expect(tennis.score).to eq 'Advantage out'
+    expect(tennis.score).to eq 'Ad-out'
 
     tennis.won_point
     expect(tennis.score).to eq 'Deuce'
