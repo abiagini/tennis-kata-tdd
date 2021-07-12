@@ -1,11 +1,11 @@
 # Tennis kata TDD in Ruby
 
-## Description
+### Description
 
 This is my solution using Ruby and Rspec to solve the tennis kata described here:<br/>
 https://codingdojo.org/kata/Tennis/
 
-## Instructions
+### Instructions
 
 Clone the repo wherever you want and run the next command in the root of the project to install dependencies
 
