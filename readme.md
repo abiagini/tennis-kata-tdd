@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my solution using Ruby and Rspec to solve the tennis kata described here:
+This is my solution using Ruby and Rspec to solve the tennis kata described here:<br/>
 https://codingdojo.org/kata/Tennis/
 
 ## Instructions
